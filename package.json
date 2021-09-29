@@ -1,18 +1,18 @@
 {
-  "name": "happy-eyeballs",
+  "name": "@balena/eye-patch",
   "version": "0.0.1",
   "description": "",
-  "main": "build/src/index.js",
+  "main": "eye-patch.js",
   "scripts": {
     "test": "node -r ts-node/register ./test/cli.ts",
-    "debug": "NODE_DEBUG=happy-eyeballs-debug npm test",
-    "verbose": "NODE_DEBUG=happy-eyeballs,happy-eyeballs-debug npm test",
+    "debug": "NODE_DEBUG=@balena/eye-patch-debug npm test",
+    "verbose": "NODE_DEBUG=@balena/eye-patch,@balena/eye-patch-debug npm test",
     "lint": "balena-lint --typescript src test",
     "build": "./node_modules/.bin/tsc"
   },
-  "repository": "https://github.com/zwhitchcox/happy-eyeballs",
+  "repository": "https://github.com/balena-io-modules/eye-patch",
   "keywords": [],
-  "author": "",
+  "author": "zwhitchcox@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@types/busboy": "^0.2.4",
