@@ -1,6 +1,6 @@
 {
   "name": "@balena/eye-patch",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "eye-patch.js",
   "scripts": {
@@ -27,5 +27,8 @@
     "node-fetch": "^2.6.5",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
+  },
+  "versionist": {
+    "publishedAt": "2021-09-30T12:49:08.342Z"
   }
 }
